@@ -22,4 +22,4 @@ Inquirer: Then I shall return — perhaps with snacks — when wisdom is ready t
 
 Socrates: And you shall be welcome. For he who waits with curiosity is never idle.
 
-— The VOO Alumni Board
+— The VOO Alumni Board, alumni@kawestern.org
