@@ -24,4 +24,4 @@ Socrates: And you shall be welcome. For he who waits with curiosity is never idl
 
 — The VOO Alumni Board
 
-[alumni@kawestern.org](mailto:alumni@kawestern.org)
+📧 [alumni@kawestern.org](mailto:alumni@kawestern.org)
