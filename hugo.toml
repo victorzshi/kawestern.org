@@ -1,0 +1,52 @@
+baseURL = 'https://kawestern.org/'
+locale = 'en-us'
+title = 'VOO Alumni Board'
+theme = ['github.com/adityatelange/hugo-PaperMod']
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[module]
+  [[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'
+
+[params]
+  env = 'production'
+  title = 'VOO Alumni Board'
+  description = 'VOO Alumni Board'
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowToc = false
+  disableSpecial1stPost = true
+  hidemeta = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = 'VOO Alumni Board'
+    Content = 'Welcome. This site is home to the VOO Alumni Board, a place for alumni to stay connected, share news, and support one another. We are still building this out — check the [About](/about/) page for more, or [reach out](/contact/) if you would like to get involved.'
+
+  [[params.socialIcons]]
+    name = 'email'
+    url = 'mailto:alumni@kawestern.org'
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'contact'
+  name = 'Contact'
+  url = '/contact/'
+  weight = 20
+
+[outputs]
+  home = ['HTML', 'RSS']
