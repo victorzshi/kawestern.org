@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: victorzshi/kawestern.org
+  branch: main
+  # Replace with the origin of your deployed sveltia-cms-auth OAuth proxy,
+  # e.g. https://sveltia-cms-auth.<your-subdomain>.workers.dev
+  base_url: https://sveltia-cms-auth.vzshi.workers.dev
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: posts
+    label: Posts
+    folder: content/posts
+    create: true
+    slug: '{{slug}}'
+    format: frontmatter
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Draft, name: draft, widget: boolean, default: true }
+      - { label: Tags, name: tags, widget: list, default: [] }
+      - { label: Body, name: body, widget: markdown }

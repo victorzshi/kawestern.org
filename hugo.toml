@@ -37,6 +37,12 @@ buildExpired = false
     url = 'mailto:alumni@kawestern.org'
 
 [[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts/'
+  weight = 5
+
+[[menu.main]]
   identifier = 'about'
   name = 'About'
   url = '/about/'
