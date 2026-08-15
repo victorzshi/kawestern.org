@@ -1,6 +1,6 @@
 ---
 title: This is a test post
-date: 2026-08-15T19:22
+date: 2026-08-15
 draft: false
 tags:
   - test
