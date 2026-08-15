@@ -2,8 +2,6 @@ backend:
   name: github
   repo: victorzshi/kawestern.org
   branch: main
-  # Replace with the origin of your deployed sveltia-cms-auth OAuth proxy,
-  # e.g. https://sveltia-cms-auth.<your-subdomain>.workers.dev
   base_url: https://sveltia-cms-auth.vzshi.workers.dev
 
 media_folder: static/images
